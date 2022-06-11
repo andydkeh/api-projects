@@ -28,7 +28,7 @@ class EmployeeController {
   }
   // end::get-aggregate-root[]
 
-  @PostMapping("/projetos")
+  @PostMapping("/projetos/add")
   Projeto newEmployee(@RequestBody Projeto newEmployee) {
     return repository.save(newEmployee);
   }
