@@ -27,31 +27,31 @@ class Projeto {
   }
 
   public Long getId() {
-    return this.id;
+  	return this.id;
   }
 
   public String getProjeto() {
-    return this.nome_projeto;
+  	return this.nome_projeto;
   }
 
   public String getCliente() {
-    return this.nome_cliente;
+  	return this.nome_cliente;
   }
 
   public String getGestor() {
-	    return this.nome_gestor;
+	return this.nome_gestor;
   }
   
   public Integer getFuncionarios() {
-	    return this.qtd_funcionarios;
+	return this.qtd_funcionarios;
   }
   
   public void setId(Long id) {
-    this.id = id;
+    	this.id = id;
   }
 
   public void setProjeto(String nome_projeto) {
-    this.nome_projeto = nome_projeto;
+  	this.nome_projeto = nome_projeto;
   }
 
   public void setCliente(String nome_cliente) {
